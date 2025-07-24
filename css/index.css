@@ -35,3 +35,28 @@
 }
 
 /* ========== GENERAL STYLES FOR FILE INDEX.HTML ========== */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* =============== HEADER =============== */
+.header-nav {
+  padding: 43px 0 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+
+.header-nav-links {
+  font-size: 20px;
+  line-height: 125%;
+}
