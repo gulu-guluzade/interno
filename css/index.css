@@ -88,7 +88,7 @@
   justify-content: flex-start;
 }
 
-.intro-wrapper {
+.intro-inner {
   width: 567px;
 }
 
@@ -99,7 +99,7 @@
   line-height: 125%;
 }
 
-.intro-description {
+.intro-desc {
   color: #4d5053;
   font-size: 22px;
   line-height: 150%;
