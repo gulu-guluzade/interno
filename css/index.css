@@ -46,9 +46,10 @@
   background-color: #292f36;
   font-family: DM-Regular;
   line-height: 125%;
-  letter-spacing: 2%;
   font-size: 18px;
   box-shadow: 0 10px 20px 0 #c0c0c059;
+  border-radius: 18px;
+  display: inline-block;
 }
 
 /* =============== HEADER =============== */
@@ -69,4 +70,52 @@
 .header-nav-links {
   font-size: 20px;
   line-height: 125%;
+}
+
+/* =============== SECTION INTRO =============== */
+.intro {
+  background: url("../images/background-images/background.jpg") center no-repeat;
+  background-size: cover;
+  border-bottom-left-radius: 291px;
+  height: 1042px;
+  position: relative;
+}
+
+.intro .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.intro-wrapper {
+  width: 567px;
+}
+
+.intro-title {
+  color: #292f36;
+  font-family: DM-Regular;
+  font-size: 85px;
+  line-height: 125%;
+}
+
+.intro-description {
+  color: #4d5053;
+  font-size: 22px;
+  line-height: 150%;
+  margin: 9px 0 21px;
+}
+
+.intro-btn {
+  padding: 26px 73px 26px 48px;
+}
+
+.intro-btn::after {
+  content: "";
+  width: 16px;
+  height: 15px;
+  background: url("../images/arrows/arrow-right.svg") center no-repeat;
+  background-size: cover;
+  display: inline-block;
+  margin-left: 10px;
 }
