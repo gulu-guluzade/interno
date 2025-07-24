@@ -119,3 +119,54 @@
   display: inline-block;
   margin-left: 10px;
 }
+
+/* =============== SECTION PROCESS =============== */
+.process {
+  padding: 200px 0;
+}
+
+.process-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px 0;
+}
+
+.process-cards {
+  width: 358px;
+  text-align: center;
+}
+
+.process-cards-title {
+  font-family: DM-Regular;
+  font-size: 25px;
+  line-height: 125%;
+  color: #292f36;
+}
+
+.process-cards-desc {
+  font-size: 22px;
+  line-height: 125%;
+  color: #292f36;
+  margin: 20px 0 52px;
+}
+
+.process-cards-links {
+  font-family: Jost-SemiBold;
+  font-size: 18px;
+  line-height: 125%;
+  position: relative;
+}
+
+.process-cards-links::after {
+  content: "";
+  width: 16px;
+  height: 15px;
+  background: url("../images/arrows/arrow-right.svg") center no-repeat;
+  background-size: cover;
+  display: inline-block;
+  position: absolute;
+  left: 102px;
+  top: 5px;
+}
