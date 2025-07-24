@@ -1,0 +1,37 @@
+/* ========== FONTS ========== */
+@font-face {
+  font-family: "DM-Regular";
+  src: url("../fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Jost-Regular";
+  src: url("../fonts/Jost/Jost-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Jost-SemiBold";
+  src: url("../fonts/Jost/Jost-SemiBold.ttf");
+}
+
+/* ========== RESET ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: Jost-Regular;
+  font-weight: 400;
+  font-size: 14px;
+  color: inherit;
+  line-height: 18px;
+
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Standard */
+}
+
+/* ========== GENERAL STYLES FOR FILE INDEX.HTML ========== */
