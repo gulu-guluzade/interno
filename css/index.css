@@ -108,6 +108,7 @@
 
 .intro-btn {
   padding: 26px 73px 26px 48px;
+  position: relative;
 }
 
 .intro-btn::after {
@@ -117,7 +118,9 @@
   background: url("../images/arrows/arrow-right.svg") center no-repeat;
   background-size: cover;
   display: inline-block;
-  margin-left: 10px;
+  position: absolute;
+  left: 148px;
+  top: 30px;
 }
 
 /* =============== SECTION PROCESS =============== */
