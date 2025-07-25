@@ -173,3 +173,76 @@
   left: 102px;
   top: 5px;
 }
+
+.feature {
+  margin-bottom: 200px;
+}
+
+.feature-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.feature-content {
+}
+
+.feature-title {
+  font-family: DM-Serif;
+  font-size: 50px;
+  line-height: 125%;
+  color: #292f36;
+  padding-top: 43px;
+  max-width: 420px;
+}
+
+.feature-desc {
+  font-size: 22px;
+  line-height: 150%;
+  margin: 33px 0 45px;
+  color: #4d5053;
+  max-width: 472px;
+  text-align: justify;
+}
+
+.feature-phone-block {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 14.5px;
+  margin-bottom: 47px;
+}
+
+.feature-phone-number {
+  font-family: Jost-SemiBold;
+  font-size: 24px;
+  line-height: 150%;
+  color: #4d5053;
+  display: block;
+}
+
+.feature-phone-number-label {
+  font-size: 22px;
+  line-height: 150%;
+  color: #4d5053;
+}
+
+.feature-btn {
+  padding: 26px 56px 26px 31px;
+  position: relative;
+}
+
+.feature-btn::after {
+  content: "";
+  width: 16px;
+  height: 15px;
+  background: url("../images/arrows/arrow-right.svg") center no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 30px;
+  left: 182px;
+}
+
+.feature-right-img {
+  border-radius: 0 326.5px 0 123px;
+}
