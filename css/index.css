@@ -302,3 +302,15 @@
   font-size: 22px;
   line-height: 150%;
 }
+
+/* =============== SECTION PARTNERS =============== */
+.section-partners {
+  padding: 150px 0;
+}
+
+.partners-wrapper {
+  padding: 0 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
