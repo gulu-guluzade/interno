@@ -244,3 +244,61 @@
 .feature-right-img {
   border-radius: 0 326.5px 0 123px;
 }
+
+/* =============== SECTION TESTIMONIALS =============== */
+.testimonials-wrapper {
+  background-color: #f4f0ec;
+  border-radius: 70px;
+  padding: 88px 25px;
+}
+
+.testimonials-title {
+  font-family: DM-Regular;
+  font-size: 50px;
+  line-height: 125%;
+  color: #292f36;
+  width: 547px;
+  text-align: center;
+  margin: 0 auto 38px;
+}
+
+.testimonials-cards-wrap {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonials-cards {
+  padding: 53px 30px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 358px;
+}
+
+.testimonials-clients {
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 23px;
+}
+
+.testimonials-clients-name {
+  font-family: DM-Regular;
+  font-size: 25px;
+  line-height: 150%;
+  color: #292f36;
+}
+
+.testimonials-clients-location {
+  font-size: 18px;
+  line-height: 150%;
+  color: #292f36;
+}
+
+.testimonials-cards-text {
+  font-size: 22px;
+  line-height: 150%;
+}
