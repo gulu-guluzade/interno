@@ -463,3 +463,44 @@
   line-height: 150%;
   color: #4d5053;
 }
+
+/* =============== SECTION CTA =============== */
+.section-cta {
+  margin: 202px 135px;
+}
+
+.cta-wrapper {
+  background-color: #292f36;
+  padding: 80px 15px;
+  border-radius: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-title {
+  font-family: DM-Regular;
+  font-size: 50px;
+  line-height: 125%;
+  color: #ffffff;
+  text-align: center;
+}
+
+.cta-desc {
+  font-size: 22px;
+  line-height: 150%;
+  color: #ffffff;
+  margin: 11px 32px;
+  text-align: center;
+}
+
+.cta-btn {
+  padding: 26px 37px;
+  background-color: #cda274;
+  color: #ffffff;
+  box-shadow: 0 10px 20px 0 #1f2022;
+  display: flex;
+  align-items: center;
+  gap: 0 11px;
+}
