@@ -370,3 +370,35 @@
   font-size: 22px;
   line-height: 150%;
 }
+
+/* =============== SECTION STATISTICS =============== */
+.section-statistics {
+  margin: 150px 0 200px;
+  background-color: #f4f0ec;
+}
+
+.statistics-wrapper {
+  padding: 151px 116.5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.statistics-number {
+  font-family: DM-Regular;
+  font-size: 85px;
+  line-height: 125%;
+  color: #cda274;
+}
+
+.statistics-label {
+  font-size: 22px;
+  line-height: 150%;
+  color: #4d5053;
+  padding: 0 10px;
+}
+
+.statistics-lines {
+  max-height: 130px;
+}
