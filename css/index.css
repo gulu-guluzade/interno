@@ -402,3 +402,64 @@
 .statistics-lines {
   max-height: 130px;
 }
+
+/* =============== SECTION ARTICLES =============== */
+.articles-intro {
+  max-width: 811px;
+  margin: 0 auto 52px;
+  text-align: center;
+}
+
+.articles-title {
+  font-family: DM-Regular;
+  font-size: 50px;
+  line-height: 125%;
+  margin-bottom: 12px;
+  color: #292f36;
+}
+
+.articles-desc {
+  font-size: 22px;
+  line-height: 150%;
+  color: #4d5053;
+}
+
+.articles-cards-wrap {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 20px 18px;
+  flex-wrap: wrap;
+}
+
+.articles-cards {
+  width: 376px;
+  border: 1px solid #e7e7e7;
+  border-radius: 62px;
+  padding: 21px;
+}
+
+.articles-cards-img {
+  max-width: 100%;
+}
+
+.articles-cards-title {
+  font-family: DM-Regular;
+  font-size: 25px;
+  line-height: 125%;
+  color: #292f36;
+  max-width: 95%;
+  margin: 21px 0 30px;
+}
+
+.articles-cards-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.articles-cards-date {
+  font-size: 16px;
+  line-height: 150%;
+  color: #4d5053;
+}
